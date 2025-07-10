@@ -1,0 +1,56 @@
+# Cypress E2E Test Project
+
+Tento projekt obsahuje automatizované end-to-end testy pomocou Cypress frameworku.
+
+## Požiadavky
+
+- Node.js (odporúčaná verzia: 16 alebo vyššia)
+- NPM (automaticky súčasťou Node.js)
+
+## Inštalácia a spustenie
+
+1.  Naklonuj si repozitár:
+
+    git clone https://github.com/RichardDolinsky/projekt-cypress-july.git
+    cd "Cesta ku tvojmu priecinku s vyklonovanym repozitarom"
+    Branch: MASTER
+
+2.  Nainštaluj závislosti:
+    npm install
+
+3.  Spustenie cez Cypress UI
+    npx cypress open
+
+          alebo cielene test
+
+    npx cypress run --spec "cypress/e2e/sauceDemo/first.cy.ts"
+
+
+#####
+##### EN version
+#####
+
+# Cypress E2E Test Project
+
+This project contains automated end-to-end tests using the Cypress framework.
+
+## Requirements
+
+- Node.js (recommended version: 16 or higher)
+- NPM (automatically included with Node.js)
+
+## Installation and Running
+
+1.  Clone the repository:
+
+    git clone https://github.com/RichardDolinsky/projekt-cypress-july.git
+    cd "Path to your cloned repository folder"
+
+2. Install dependencies:
+       npm install
+
+2.  Run using Cypress UI:
+    npx cypress open
+
+    or to run a specific test directly:
+    npx cypress run --spec "cypress/e2e/sauceDemo/first.cy.ts"
